@@ -1,0 +1,72 @@
+
+[colors]
+background = #dd0f0f0f
+background-alt = #dd3f3f3f
+foreground = #fff
+foreground-alt = #ffffff
+primary = #ffc52a
+secondary = #ddffc52a
+alert = #fc0000
+transparent = #00000000
+
+[bar/omk]
+
+width = 100% 
+height = 19
+;offset-x = 28% 
+;offset-y = 10%
+radius = 0.0 
+fixed-center = false
+
+background = ${colors.transparent} 
+foreground = ${colors.primary}
+
+line-size = 2 
+line-color = ${colors.primary}
+
+border-size = 0
+border-color = ${colors.primary}
+
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 0
+module-margin-right = 0
+
+font-0 = mononoki Nerd Font Mono:size=9;2
+font-1 = Material Design Icons:size=10;2
+font-2 = siji:pixelsize=9;2
+font-3 = Icons:size=10;3
+font-4 = JetBrainsMono Nerd Font:size=17;4
+font-5 = Noto Sans Symbols:size=10;2
+font-6 = FontAwesome:size=10;2
+font-7 = Icons:size=19;6
+font-8 = 3270Medium Nerd Font Mono:size=17;3
+
+modules-left = space space rr-l workspaces rr-r
+modules-right = rr-l bici r-r qalculate bluetooth megasync printer r-l updates r-r pulseaudio r-l xbacklight r-r battery r-l wlan eth r-r xkeyboard r-l date rr-r
+modules-center =
+
+tray-position = none
+tray-padding = 2
+tray-background = #000f0f0f
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[section/modules]
+include-file = ~/.config/polybar/modules.ini
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+;pseudo-transparency = true
+
+[global/wm]
+margin-top = 1
+margin-bottom = 0
+
+; vim:ft=dosini
