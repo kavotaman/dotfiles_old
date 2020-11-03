@@ -18,7 +18,7 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- Enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
-require("round-client")
+--require("round-client")
 local xrandr = require("xrandr")
 
 -- {{{ Error handling
@@ -481,7 +481,7 @@ end)
 -- }}}
 
 -- Gaps
-beautiful.useless_gap = 3
+beautiful.useless_gap = 5
 
 -- Autostart
 --awful.spawn.with_shell("feh --bg-fill --randomize ~/Pictures/Atibaia WP")
@@ -492,5 +492,6 @@ awful.spawn.with_shell("kmix")
 --awful.spawn.with_shell("nm-applet")
 awful.spawn.with_shell("/home/omk/.config/polybar/launch.sh")
 --awful.spawn.with_shell("nitrogen --set-zoom-fill --random ~/Pictures/Atibaia WP/")
-awful.spawn.with_shell("nitrogen --restore ~/Pictures/WP/Wallpaper Bici 1.png")
-awful.spawn.with_shell("conky")
+--awful.spawn.with_shell("nitrogen --restore ~/Pictures/WP/Wallpaper Bici 1.png")
+awful.spawn.with_shell("/home/omk/.config/conky/launch.sh")
+awful.spawn.with_shell("/home/omk/.config/awesome/scripts/wp.sh")

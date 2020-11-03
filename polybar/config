@@ -24,8 +24,8 @@ foreground = ${colors.primary}
 line-size = 2 
 line-color = ${colors.primary}
 
-border-size = 0
-border-color = ${colors.primary}
+border-size = 2
+border-color = ${colors.transparent}
 
 padding-left = 0
 padding-right = 2
@@ -44,7 +44,7 @@ font-7 = Icons:size=19;6
 font-8 = 3270Medium Nerd Font Mono:size=17;3
 
 modules-left = space space rr-l workspaces rr-r
-modules-right = rr-l bici r-r qalculate bluetooth megasync printer r-l updates r-r pulseaudio r-l xbacklight r-r battery r-l wlan eth r-r xkeyboard r-l date rr-r
+modules-right = rr-l bici r-r qalculate megasync printer bluetooth r-l updates r-r pulseaudio r-l xbacklight r-r battery r-l wlan eth r-r xkeyboard r-l date rr-r
 modules-center =
 
 tray-position = none
