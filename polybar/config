@@ -11,6 +11,7 @@ transparent = #00000000
 
 [bar/omk]
 
+monitor = LVDS1
 width = 100% 
 height = 19
 ;offset-x = 28% 
@@ -24,11 +25,11 @@ foreground = ${colors.primary}
 line-size = 2 
 line-color = ${colors.primary}
 
-border-size = 2
+border-size = 3
 border-color = ${colors.transparent}
 
 padding-left = 0
-padding-right = 2
+padding-right = 1
 
 module-margin-left = 0
 module-margin-right = 0
@@ -43,9 +44,9 @@ font-6 = FontAwesome:size=10;2
 font-7 = Icons:size=19;6
 font-8 = 3270Medium Nerd Font Mono:size=17;3
 
-modules-left = space space rr-l workspaces rr-r
-modules-right = rr-l bici r-r qalculate megasync printer bluetooth r-l updates r-r pulseaudio r-l xbacklight r-r battery r-l wlan eth r-r xkeyboard r-l date rr-r
+modules-left = space rr-l workspaces rr-r
 modules-center =
+modules-right = rr-l bici r-r qalculate megasync printer bluetooth r-l updates r-r pulseaudio r-l xbacklight r-r battery r-l wlan eth r-r xkeyboard r-l date rr-r
 
 tray-position = none
 tray-padding = 2
