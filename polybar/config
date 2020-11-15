@@ -36,7 +36,7 @@ module-margin-right = 0
 
 font-0 = mononoki Nerd Font Mono:size=9;2
 font-1 = Material Design Icons:size=10;2
-font-2 = siji:pixelsize=9;2
+font-2 = agave Nerd Font:size=7;3
 font-3 = Icons:size=10;3
 font-4 = JetBrainsMono Nerd Font:size=17;4
 font-5 = Noto Sans Symbols:size=10;2
@@ -44,7 +44,7 @@ font-6 = FontAwesome:size=10;2
 font-7 = Icons:size=19;6
 font-8 = 3270Medium Nerd Font Mono:size=17;3
 
-modules-left = space rr-l workspaces rr-r
+modules-left = space rr-l bici space2 workspaces rr-r
 modules-center =
 modules-right = rr-l bici r-r qalculate megasync printer bluetooth r-l updates r-r pulseaudio r-l xbacklight r-r battery r-l wlan eth r-r xkeyboard r-l date rr-r
 
