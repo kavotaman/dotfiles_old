@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PluginStats>
+  <Plugin type="LV2" id="https://github.com/lucianodato/noise-repellent" lru="1605748818" use-count="43"/>
+  <Plugin type="LV2" id="http://lsp-plug.in/plugins/lv2/mb_expander_mono" lru="1605658394" use-count="1"/>
+  <Plugin type="LV2" id="http://lsp-plug.in/plugins/lv2/expander_mono" lru="1605658286" use-count="1"/>
+  <Plugin type="LV2" id="http://gareus.org/oss/lv2/meters#EBUr128" lru="1605747619" use-count="29"/>
+  <Plugin type="LV2" id="http://eq10q.sourceforge.net/eq/eq10qm" lru="1605783029" use-count="70"/>
+  <Plugin type="LV2" id="http://calf.sourceforge.net/plugins/Reverb" lru="1605748968" use-count="21"/>
+  <Plugin type="LV2" id="http://calf.sourceforge.net/plugins/Pitch" lru="1603636865" use-count="3"/>
+  <Plugin type="LV2" id="http://calf.sourceforge.net/plugins/Limiter" lru="1605783053" use-count="56"/>
+  <Plugin type="LV2" id="http://calf.sourceforge.net/plugins/Gate" lru="1602461969" use-count="27"/>
+  <Plugin type="LV2" id="http://calf.sourceforge.net/plugins/Deesser" lru="1605783041" use-count="54"/>
+  <Plugin type="LV2" id="http://calf.sourceforge.net/plugins/Compressor" lru="1605748820" use-count="55"/>
+  <Plugin type="LADSPA" id="5002106" lru="1605658027" use-count="1"/>
+  <Plugin type="LADSPA" id="1913" lru="1604276400" use-count="21"/>
+  <Plugin type="LADSPA" id="1410" lru="1605658125" use-count="2"/>
+</PluginStats>

@@ -236,6 +236,11 @@ globalkeys = gears.table.join(
     awful.util.spawn("chromium") end,
               {description = "Open a browser (chromium)", group = "launcher"}),
 
+    -- Launch File Manager
+    awful.key({ modkey },            "e",    function()
+    awful.util.spawn("krusader") end,
+              {description = "Open file manager", group = "launcher"}),
+
     -- Menubar
     awful.key({ modkey }, "p", function() menubar.show() end,
               {description = "show the menubar", group = "launcher"})

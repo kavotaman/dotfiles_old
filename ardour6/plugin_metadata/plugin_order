@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PluginOrder>
+  <PluginInfo sort="0" unique-id="http://calf.sourceforge.net/plugins/Reverb" expanded="0"/>
+  <PluginInfo sort="1" unique-id="http://eq10q.sourceforge.net/eq/eq10qs" expanded="0"/>
+  <PluginInfo sort="2" unique-id="https://github.com/lucianodato/noise-repellent" expanded="0"/>
+  <PluginInfo sort="3" unique-id="http://calf.sourceforge.net/plugins/Compressor" expanded="1"/>
+  <PluginInfo sort="4" unique-id="http://calf.sourceforge.net/plugins/Deesser" expanded="0"/>
+  <PluginInfo sort="5" unique-id="http://calf.sourceforge.net/plugins/Gate" expanded="1"/>
+  <PluginInfo sort="6" unique-id="http://calf.sourceforge.net/plugins/Limiter" expanded="0"/>
+  <PluginInfo sort="7" unique-id="http://eq10q.sourceforge.net/eq/eq10qm" expanded="1"/>
+  <PluginInfo sort="8" unique-id="http://gareus.org/oss/lv2/meters#EBUr128" expanded="0"/>
+  <PluginInfo sort="9" unique-id="http://invadarecords.com/plugins/lv2/erreverb/mono" expanded="0"/>
+  <PluginInfo sort="10" unique-id="1913" expanded="0"/>
+  <PluginInfo sort="11" unique-id="1433" expanded="0"/>
+  <PluginInfo sort="12" unique-id="http://calf.sourceforge.net/plugins/Pitch" expanded="0"/>
+  <PluginInfo sort="13" unique-id="2979" expanded="0"/>
+  <PluginInfo sort="14" unique-id="4262" expanded="0"/>
+  <PluginInfo sort="15" unique-id="http://kxstudio.sf.net/carla/plugins/audiogain" expanded="0"/>
+</PluginOrder>
